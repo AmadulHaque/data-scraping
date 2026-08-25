@@ -34,6 +34,9 @@ class Settings(BaseSettings):
     EXPORT_FORMAT: str = "jsonl"  # json, jsonl, postgres
     EXPORT_DIR: str = "exports"
 
+    # Images
+    DOWNLOAD_IMAGES_AFTER_SCRAPE: bool = False  # auto-download product images after each scrape
+
     # Logging
     LOG_LEVEL: str = "INFO"
     LOG_FILE: str = "logs/scraper.log"

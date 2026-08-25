@@ -1,0 +1,130 @@
+2026-08-24 23:13:41 | INFO     | __main__:run_scrape:87 | Starting scrape run 8dd8aef7-e383-4413-a02b-1626c959a8c3
+2026-08-24 23:13:41 | INFO     | __main__:run_scrape:93 | Processing 0 URLs
+2026-08-24 23:13:41 | INFO     | __main__:_finalize_run:194 | Scrape run 8dd8aef7-e383-4413-a02b-1626c959a8c3 completed
+2026-08-24 23:13:41 | INFO     | __main__:export_results:198 | Exporting results...
+2026-08-24 23:13:41 | INFO     | __main__:download_scraped_images:212 | No product images to download
+2026-08-24 23:13:41 | INFO     | __main__:print_import_hint:224 | Import into ecommerce: cd ../ecommerce && php artisan catalog:import-scraped
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:228 | ============================================================
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:229 | SCRAPING SUMMARY
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:230 | ============================================================
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:231 | Run ID: 8dd8aef7-e383-4413-a02b-1626c959a8c3
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:232 | Total URLs Discovered: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:233 | Total Products Processed: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:234 | Successful: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:235 | Failed: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:236 | Skipped: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:237 | New Products: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:238 | Updated Products: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:239 | Duplicates: 0
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:240 | Average Response Time: 0.04s
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:242 | Total Execution Time: 0.04s
+2026-08-24 23:13:41 | INFO     | __main__:print_summary:243 | ============================================================
+2026-08-24 23:14:16 | INFO     | __main__:run_scrape:87 | Starting scrape run 846a7d80-e0e0-4540-93f4-258e52b05e99
+2026-08-24 23:14:16 | INFO     | __main__:run_scrape:93 | Processing 0 URLs
+2026-08-24 23:14:16 | INFO     | __main__:_finalize_run:194 | Scrape run 846a7d80-e0e0-4540-93f4-258e52b05e99 completed
+2026-08-24 23:14:16 | INFO     | __main__:export_results:198 | Exporting results...
+2026-08-24 23:14:16 | INFO     | __main__:download_scraped_images:212 | No product images to download
+2026-08-24 23:14:16 | INFO     | __main__:print_import_hint:224 | Import into ecommerce: cd ../ecommerce && php artisan catalog:import-scraped
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:228 | ============================================================
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:229 | SCRAPING SUMMARY
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:230 | ============================================================
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:231 | Run ID: 846a7d80-e0e0-4540-93f4-258e52b05e99
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:232 | Total URLs Discovered: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:233 | Total Products Processed: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:234 | Successful: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:235 | Failed: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:236 | Skipped: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:237 | New Products: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:238 | Updated Products: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:239 | Duplicates: 0
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:240 | Average Response Time: 0.02s
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:242 | Total Execution Time: 0.02s
+2026-08-24 23:14:16 | INFO     | __main__:print_summary:243 | ============================================================
+2026-08-25 11:05:13 | INFO     | __main__:run_discovery:48 | Starting URL discovery...
+2026-08-25 11:05:14 | INFO     | app.crawler.discovery:discover_from_sitemap:40 | Fetching 95 product sitemap shards
+2026-08-25 11:05:54 | INFO     | app.crawler.discovery:discover_from_sitemap:62 | Sitemap discovery found 91889 product URLs
+2026-08-25 11:05:54 | INFO     | __main__:run_discovery:52 | Discovered 91889 URLs from sitemap
+2026-08-25 11:05:55 | INFO     | app.crawler.discovery:discover_from_categories:71 | Found 3 category pages to crawl
+2026-08-25 11:06:00 | INFO     | app.crawler.discovery:discover_from_categories:103 | Category level 2: 160 pages
+2026-08-25 11:11:01 | INFO     | app.crawler.discovery:discover_from_categories:105 | Category discovery found 3322 product URLs
+2026-08-25 11:11:01 | INFO     | __main__:run_discovery:56 | Discovered 3322 URLs from categories
+2026-08-25 11:11:01 | INFO     | __main__:run_discovery:60 | Total unique URLs discovered: 92100
+2026-08-25 11:11:46 | INFO     | __main__:run_discovery:69 | Added 92100 URLs to scrape queue
+2026-08-25 11:12:03 | INFO     | __main__:run_scrape:87 | Starting scrape run e4acfc6f-2980-446c-8548-89c121cb11d4
+2026-08-25 11:12:03 | INFO     | __main__:run_scrape:93 | Processing 10 URLs
+2026-08-25 11:12:20 | INFO     | __main__:_finalize_run:194 | Scrape run e4acfc6f-2980-446c-8548-89c121cb11d4 completed
+2026-08-25 11:12:20 | INFO     | __main__:export_results:198 | Exporting results...
+2026-08-25 11:12:20 | INFO     | app.storage.export:export_products:34 | Exported 10 products to exports/products_20260825_111220.jsonl
+2026-08-25 11:12:20 | INFO     | __main__:export_results:204 | Exported 10 products to exports
+2026-08-25 11:12:20 | INFO     | __main__:download_scraped_images:215 | Downloading images for 6 scraped products...
+2026-08-25 11:12:29 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/08/cover-95031-250x375.jpg: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/08/cover-95031-250x375.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:12:30 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/07/cover-82851-250x375.jpg: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/07/cover-82851-250x375.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:12:30 | INFO     | app.storage.image_downloader:download_all:93 | Downloaded images for 1/6 products
+2026-08-25 11:12:30 | INFO     | __main__:download_scraped_images:219 | Saved 1 image files for 1 products
+2026-08-25 11:12:30 | INFO     | __main__:print_import_hint:224 | Import into ecommerce: cd ../ecommerce && php artisan catalog:import-scraped
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:228 | ============================================================
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:229 | SCRAPING SUMMARY
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:230 | ============================================================
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:231 | Run ID: e4acfc6f-2980-446c-8548-89c121cb11d4
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:232 | Total URLs Discovered: 0
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:233 | Total Products Processed: 10
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:234 | Successful: 10
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:235 | Failed: 0
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:236 | Skipped: 0
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:237 | New Products: 10
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:238 | Updated Products: 0
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:239 | Duplicates: 0
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:240 | Average Response Time: 1.61s
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:242 | Total Execution Time: 16.12s
+2026-08-25 11:12:30 | INFO     | __main__:print_summary:243 | ============================================================
+2026-08-25 11:13:51 | INFO     | __main__:run_scrape:87 | Starting scrape run 51b7c5a8-0716-462c-a733-d8dbba6f91da
+2026-08-25 11:13:51 | INFO     | __main__:run_scrape:93 | Processing 1000 URLs
+2026-08-25 11:14:53 | INFO     | __main__:run_scrape:149 | Processed 100/1000 URLs
+2026-08-25 11:15:41 | INFO     | __main__:run_scrape:149 | Processed 200/1000 URLs
+2026-08-25 11:16:34 | INFO     | __main__:run_scrape:149 | Processed 300/1000 URLs
+2026-08-25 11:17:16 | WARNING  | app.crawler.base:fetch:67 | 404 Not found: https://www.wafilife.com/এনকোড-মেনস-প্রিমিয়াম-স্পোর্টস-টি-শার্ট-মনোথিয়েস্ট/pd/26060
+2026-08-25 11:17:30 | INFO     | __main__:run_scrape:149 | Processed 400/1000 URLs
+2026-08-25 11:19:32 | INFO     | __main__:run_scrape:149 | Processed 500/1000 URLs
+2026-08-25 11:22:17 | INFO     | __main__:run_scrape:149 | Processed 600/1000 URLs
+2026-08-25 11:23:39 | WARNING  | app.crawler.base:fetch:67 | 404 Not found: https://www.wafilife.com/matir-gondhe-prarthona/pd/113710
+2026-08-25 11:24:43 | INFO     | __main__:run_scrape:149 | Processed 700/1000 URLs
+2026-08-25 11:25:02 | WARNING  | app.crawler.base:fetch:67 | 404 Not found: https://www.wafilife.com/এনকোড-টি-শার্ট-ef08-বি-স্মার্ট-উইথ-মুহাম্মাদ-সাঃ-কালো/pd/25519
+2026-08-25 11:26:27 | INFO     | __main__:run_scrape:149 | Processed 800/1000 URLs
+2026-08-25 11:28:12 | INFO     | __main__:run_scrape:149 | Processed 900/1000 URLs
+2026-08-25 11:28:47 | WARNING  | app.crawler.base:fetch:67 | 404 Not found: https://www.wafilife.com/china-hoodie-dont-forget/pd/28468
+2026-08-25 11:29:42 | INFO     | __main__:run_scrape:149 | Processed 1000/1000 URLs
+2026-08-25 11:29:42 | INFO     | __main__:_finalize_run:194 | Scrape run 51b7c5a8-0716-462c-a733-d8dbba6f91da completed
+2026-08-25 11:29:42 | INFO     | __main__:export_results:198 | Exporting results...
+2026-08-25 11:29:43 | INFO     | app.storage.export:export_products:34 | Exported 1000 products to exports/products_20260825_112943.jsonl
+2026-08-25 11:29:43 | INFO     | __main__:export_results:204 | Exported 1000 products to exports
+2026-08-25 11:29:43 | INFO     | __main__:download_scraped_images:215 | Downloading images for 736 scraped products...
+2026-08-25 11:29:46 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/06/ilannur-level-k2-105588-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/06/ilannur-level-k2-105588-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:29:55 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/04/islame-manobadhikar-honars-1-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/04/islame-manobadhikar-honars-1-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:29:55 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/08/image-112406-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/08/image-112406-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:30:02 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/06/1647942569-82794-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/06/1647942569-82794-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:30:25 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/04/europe-er-itihash-degree-3rd-year-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/04/europe-er-itihash-degree-3rd-year-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:30:29 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/06/easy-islam-shikkha-82068-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/06/easy-islam-shikkha-82068-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:30:32 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/07/2-91246-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/07/2-91246-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:30:52 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/05/gender-protarona-77887-250x375.jpeg: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/05/gender-protarona-77887-250x375.jpeg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:31:11 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/04/2302494-250x375.jpg: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/04/2302494-250x375.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:31:26 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/07/download-2026-07-15t105056262-90703-250x375.jpeg: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/07/download-2026-07-15t105056262-90703-250x375.jpeg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:31:44 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://wafilife-media.wafilife.com/uploads/2024/01/88bd32cb-2ae5-457e-936a-ac16528cda8e-Q.B-01.jpg: Client error '403 Forbidden' for url 'https://wafilife-media.wafilife.com/uploads/2024/01/88bd32cb-2ae5-457e-936a-ac16528cda8e-Q.B-01.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-08-25 11:31:44 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/04/2b58269a-965b-4c8f-98d3-1d931d95c2ee-77021-250x375.jpg: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/04/2b58269a-965b-4c8f-98d3-1d931d95c2ee-77021-250x375.jpg'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:32:00 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/04/antorjatik-banijyo-honars-4th-year-250x375.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/04/antorjatik-banijyo-honars-4th-year-250x375.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-08-25 11:32:24 | WARNING  | app.storage.image_downloader:fetch:50 | Image download failed https://www.wafilife.com/2026/03/1000070132-600x777-1-cover-250x390.png: Client error '404 Not Found' for url 'https://www.wafilife.com/2026/03/1000070132-600x777-1-cover-250x390.png'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404

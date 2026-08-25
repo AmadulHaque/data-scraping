@@ -41,6 +41,7 @@ class WafilifeScraper:
         }
         self.start_time = None
         self.end_time = None
+        self.scraped_products = []
 
     async def run_discovery(self):
         """Discover product URLs"""
@@ -69,9 +70,10 @@ class WafilifeScraper:
 
         return all_urls
 
-    async def run_scrape(self, limit: int = 0):
+    async def run_scrape(self, limit: int = 0, with_images: bool = False):
         """Run the scraping process"""
         self.start_time = time.time()
+        self.scraped_products = []
         self.run_id = self.db.create_scrape_run(config={
             'test_mode': settings.TEST_MODE,
             'max_products': settings.MAX_PRODUCTS,
@@ -130,6 +132,7 @@ class WafilifeScraper:
                     if product_id:
                         self.db.update_url_status(url_record.id, 'completed')
                         self.stats['successful'] += 1
+                        self.scraped_products.append(processed_data)
 
                         if operation == 'new':
                             self.stats['new_products'] += 1
@@ -161,6 +164,11 @@ class WafilifeScraper:
 
         # Export data
         await self.export_results()
+
+        # Download images for products scraped in this run
+        if with_images or settings.DOWNLOAD_IMAGES_AFTER_SCRAPE:
+            await self.download_scraped_images()
+            self.print_import_hint()
 
         # Print summary
         self.print_summary()
@@ -194,6 +202,26 @@ class WafilifeScraper:
         if products:
             self.exporter.export_products(products, format=settings.EXPORT_FORMAT)
             logger.info(f"Exported {len(products)} products to {settings.EXPORT_DIR}")
+
+    async def download_scraped_images(self):
+        """Download images for products scraped in this run"""
+        from app.storage.image_downloader import ImageDownloader
+
+        with_images = [p for p in self.scraped_products if p.get('images')]
+        if not with_images:
+            logger.info("No product images to download")
+            return
+
+        logger.info(f"Downloading images for {len(with_images)} scraped products...")
+        results = await ImageDownloader().download_all(with_images)
+
+        total_files = sum(len(v) for v in results.values())
+        logger.info(f"Saved {total_files} image files for {len(results)} products")
+        self.stats['products_with_images'] = len(results)
+
+    def print_import_hint(self):
+        """Print the artisan command to import this run into the ecommerce app"""
+        logger.info("Import into ecommerce: cd ../ecommerce && php artisan catalog:import-scraped")
 
     def print_summary(self):
         """Print summary statistics"""
@@ -230,10 +258,11 @@ def discover():
 
 @cli.command()
 @click.option('--limit', default=0, help='Limit number of products to scrape')
-def scrape(limit):
-    """Scrape products"""
+@click.option('--with-images', is_flag=True, help='Download product images after scraping')
+def scrape(limit, with_images):
+    """Scrape products (optionally with images)"""
     scraper = WafilifeScraper()
-    asyncio.run(scraper.run_scrape(limit))
+    asyncio.run(scraper.run_scrape(limit, with_images=with_images))
 
 
 @cli.command()
